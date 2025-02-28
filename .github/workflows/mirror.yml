@@ -17,6 +17,6 @@ jobs:
         id: mirror
         uses: craigez/github-mirror-action@main
         with:
-          origin: 'https://github.com/bridgelightcloud/github-mirror-action.git'
+          origin: 'https://github.com/huggingface/peft.git'
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           TARGET_REFSPACE: 'main'
